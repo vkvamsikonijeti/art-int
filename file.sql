@@ -1,2 +1,2 @@
 ALTER TABLE IF EXISTS FRB_EMP_DATA ADD COLUMN Comments VARCHAR(100);
-select * from FRB_EMP_DATA;
+select current_database(), current_schema();
